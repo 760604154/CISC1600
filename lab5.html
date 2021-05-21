@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>lab 5</title>
+    <script src="lab5.js"> </script>
+  </head>
+
+  <style>
+  ul.playsound{
+    list-style-position: inside;
+  background: #ffe5e5;
+  padding: 5px;
+  margin-left: 35px;
+  }
+  </style>
+
+  <body>
+    <audio id = "animalAudio">
+      <source src="hyena.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+
+
+    </audio>
+
+    <center>
+    <p>Click the button to play animal sound.</p>
+    <p>By ZeJun Ren and HaoLin Chen</p>
+    </center>
+
+
+    <center>
+      <ul class= "playsound">
+      <li>
+        <button onclick="playHyena()" type="button"> hyena </button>
+      </li>
+
+      <li>
+        <button onclick="playlemur()" type="button"> lemur </button>
+      </li>
+
+      <li>
+        <button onclick="playleopard()" type="button"> leopard </button>
+      </li>
+
+      <li>
+        <button onclick="playlion()" type="button"> lion </button>
+      </li>
+
+      <li>
+        <button onclick="playbaligator()" type="button"> baligator </button>
+      </li>
+    </ul>
+  </center>
+  </body>
+</html>
